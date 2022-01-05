@@ -8,8 +8,8 @@ mvn clean compile
 cd ./target
 java -jar resilenceTest-0.0.1-SNAPSHOT.jar
 ```
-##Ejecución
+## Ejecución
 Si no se cambia en el fichero de configuracion el puerto por defecto del servidor que ofrece Spring Boot, todas las demos deben estar sobre el puerto 8080
-###Retry
+### Retry
 Invocar 
 > http://localhost:8080/retry
