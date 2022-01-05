@@ -18,6 +18,8 @@ public class RetryController {
     }
 
     private String fallback(RetryableException e) {
-        return "Gracile response of retry final error after " + counter + " retrys";
+        String s = "Gracile response of retry final error after " + counter + " retrys\n";
+        counter = 0;
+        return s;
     }
 }
