@@ -5,7 +5,11 @@
         </encoder>
     </appender>
 
-    <root level="debug">
+    <root level="ERROR" additivity="false">
         <appender-ref ref="STDOUT" />
     </root>
+    <logger name="org.aag" level="debug" additivity="false">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
 </configuration>
